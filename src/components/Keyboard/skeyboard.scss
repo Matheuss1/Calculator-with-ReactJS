@@ -1,0 +1,37 @@
+.keyboard {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60%;
+  width: 100%;
+  background-color: black;
+  border-radius: 0 0 15px 15px;
+  
+  .btns {
+    display: flex;
+  
+    font-size: 20px;
+    color: #d3cfd6;
+    background-color: #161618	;
+    flex: 0 0 32.666%;
+    height: 24.5%;
+  
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+  
+  }
+  
+  .btns:nth-child(10){
+    border-radius: 0 0 0 15px;
+  }
+  
+  .btns:nth-child(12) {
+    border-radius: 0 0 15px 0;
+  }
+}
