@@ -12,6 +12,14 @@ export default class Screen extends Component {
     let calc = this.props.expression.join('');
     if (calc.length === 0) 
       temp = [];
+    else if (calc.slice(-1)[0] === '=') {
+      calc = [];
+      calc.push(temp);
+      while(this.props.expression.length > 0)
+        this.props.expression.pop();
+
+      this.props.expression.push(temp);
+    }
 
     try {
       let result = evaluate(calc);
