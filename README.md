@@ -1,12 +1,15 @@
 # Calculator-with-ReactJS
-=======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**This is a simple calculator made with ReactJS, there'is just the basic math operations. This isn't made
+This is a simple calculator made with ReactJS, there'is just the basic math operations. This isn't made
 to be a perfect calculator and without bugs, but to test and to learn some react tools instead. So, you can find
 some bugs like the numbers going of the screen, if you put very large values.**
 
-_This calculator style was inspired (almost the same,btw) in this calculator made with Vue.JS -> [VueJS calculator](https://codepen.io/ClementRoche/pen/zmzwEJ) . But the code in this repository was all made by myself, using React and SCSS to style__
+_This calculator style was inspired (almost the same,btw) in this calculator made with Vue.JS -> [VueJS calculator](https://codepen.io/ClementRoche/pen/zmzwEJ) . But the code in this repository was all made by myself, using React and SCSS to style
+
+## Dependencies
+In this project was used node-sass and react-icons depencies
+
 
 
 ## Available Scripts
