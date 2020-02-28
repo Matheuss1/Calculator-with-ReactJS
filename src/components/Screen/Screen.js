@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
 import './sscreen.scss'
-import { evaluate, format } from 'mathjs';
+import { evaluate } from 'mathjs';
 
-const operatorsList = ['AC', '÷', '*', '+', '-', '.'];
 var temp;
 
 export default class Screen extends Component {
