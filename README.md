@@ -7,7 +7,7 @@ some bugs like the numbers going of the screen, if you put very large values.**
 
 __This calculator style was inspired (almost the same,btw) in this calculator made with Vue.JS -> [VueJS calculator](https://codepen.io/ClementRoche/pen/zmzwEJ) . But the code in this repository was all made by myself, using React and SCSS to style__
 
-
+![calculator image](https://github.com/Matheuss1/Calculator-with-ReactJS/blob/master/mycalc.png)
 
 
 ## Available Scripts
