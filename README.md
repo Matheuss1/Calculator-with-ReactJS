@@ -15,7 +15,7 @@ __This calculator style was inspired (almost the same,btw) in this calculator ma
 In the project directory, you can run:
 
 ### `yarn install`
-Installs all project dependencies. It is need to run this before trying
+Installs all project dependencies. It is needed to run this before trying
 to run the project.
 
 ### `yarn start`
